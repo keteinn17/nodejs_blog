@@ -1,0 +1,31 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "first node js",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keteinn17/nodejs_blog.git"
+  },
+  "keywords": [
+    "kite",
+    "blog",
+    "nodejs"
+  ],
+  "author": "ket_ein17",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keteinn17/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/keteinn17/nodejs_blog#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
